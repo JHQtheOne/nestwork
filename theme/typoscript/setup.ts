@@ -242,15 +242,15 @@ config.pageTitleFirst = 0
 * Additional configurations
 */
 <INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/nav/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/lang/multilang.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/lang/langnav.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/lang/multilang.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/lang/langnav.ts">
 
 
 # --- Extension setups (see constants.ts) ---
 #
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/indexed_search/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/felogin/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/grids/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/iconfont/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/formhandler/setup.ts">
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/sr_freecap/setup.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/ext/indexed_search/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/ext/felogin/setup.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/ext/grids/setup.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/ext/iconfont/setup.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/ext/formhandler/setup.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/ext/sr_freecap/setup.ts">
