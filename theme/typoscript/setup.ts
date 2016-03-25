@@ -241,7 +241,7 @@ config.pageTitleFirst = 0
 /* --------------------
 * Additional configurations
 */
-<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/nav/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/templates/nestwork/theme/typoscript/nav/setup.ts">
 #<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/lang/multilang.ts">
 #<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/lang/langnav.ts">
 
