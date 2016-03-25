@@ -90,7 +90,7 @@ RTE.default {
     #defaultLinkTarget = _top
 
     # CSS file for RTE
-    contentCSS = fileadmin/bsdist/theme/css/rte/content.css
+    contentCSS = fileadmin/templates/nestwork/theme/css/rte/content.css
 
     # Buttons to show
 	showButtons := removeFromList(about)
