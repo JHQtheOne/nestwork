@@ -62,8 +62,8 @@ styles.content {
 */
 plugin.tx_bootstrapcore {
 	theme {
-		libDir = fileadmin/bsdist/lib
-		baseDir = fileadmin/bsdist/theme
+		libDir = fileadmin/nestwork/lib
+		baseDir = fileadmin/nestwork/theme
 		# paths to bootstrap and jquery files
 		bootstrapCssFile = {$plugin.tx_bootstrapcore.theme.libDir}/bootstrap/css/bootstrap.min.css
 		bootstrapJsFile = {$plugin.tx_bootstrapcore.theme.libDir}/bootstrap/js/bootstrap.min.js
@@ -83,11 +83,11 @@ plugin.tx_bootstrapcore {
 
 		metaNav {
 			# cat=tx_bootstrapcore.website/layout/010; type=string; label=Meta navigation page id
-			pageId = 7
+			pageId = 86
 		}
 		footer {
 			# cat=tx_bootstrapcore.website/layout/010; type=string; label=Page id with footer content (for static footer content)
-			pageId = 6
+			pageId = 89
 			# cat=tx_bootstrapcore.website/layout/011; type=string; label=Left footer colPos
 			leftColPos = 10
 			# cat=tx_bootstrapcore.website/layout/012; type=string; label=Center footer colPos
@@ -102,8 +102,8 @@ plugin.tx_bootstrapcore {
 # --- Additional extension constants (see setup.ts) ---
 #
 # indexed_search
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/indexed_search/constants.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/nestwork/theme/typoscript/ext/indexed_search/constants.ts">
 # felogin
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/felogin/constants.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/nestwork/theme/typoscript/ext/felogin/constants.ts">
 # sr_freecap (for formhandler)
-#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/bsdist/theme/typoscript/ext/sr_freecap/constants.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:fileadmin/nestwork/theme/typoscript/ext/sr_freecap/constants.ts">
