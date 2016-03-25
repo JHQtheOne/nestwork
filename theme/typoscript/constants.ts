@@ -62,8 +62,8 @@ styles.content {
 */
 plugin.tx_bootstrapcore {
 	theme {
-		libDir = fileadmin/nestwork/lib
-		baseDir = fileadmin/nestwork/theme
+		libDir = fileadmin/templates/nestwork/lib
+		baseDir = fileadmin/templates/nestwork/theme
 		# paths to bootstrap and jquery files
 		bootstrapCssFile = {$plugin.tx_bootstrapcore.theme.libDir}/bootstrap/css/bootstrap.min.css
 		bootstrapJsFile = {$plugin.tx_bootstrapcore.theme.libDir}/bootstrap/js/bootstrap.min.js
